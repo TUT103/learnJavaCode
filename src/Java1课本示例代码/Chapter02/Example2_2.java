@@ -10,8 +10,8 @@ public class Example2_2 {
         System.out.println("n = " + n);
         System.out.println("f = " + f);
         System.out.println("d = " + d);
-        b = (byte)n;
-        f = (float)d;
+        b = (byte) n;
+        f = (float) d;
         System.out.println("b = " + b);
         System.out.println("f = " + f);
     }

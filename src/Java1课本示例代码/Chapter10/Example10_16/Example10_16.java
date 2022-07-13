@@ -15,7 +15,7 @@ public class Example10_16 {
             double price = 0;
             scanner = new Scanner(file);
             scanner.useDelimiter("[^0123456789.]+");
-            while (scanner.hasNextDouble()){
+            while (scanner.hasNextDouble()) {
                 price = scanner.nextDouble();
                 sum += price;
                 System.out.println(price);

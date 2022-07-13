@@ -2,7 +2,8 @@ package Java1课本示例代码.Chapter08.Example8_5;
 
 public class TV {
     double price;
-    public void setPrice(double m){
+
+    public void setPrice(double m) {
         price = m;
     }
 

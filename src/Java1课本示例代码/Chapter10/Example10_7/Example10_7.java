@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 public class Example10_7 {
     public static void main(String[] args) {
-        String parent = "D:\\Data\\IDEAProjects\\Java2实用教程_\\src\\Java1课本示例代码\\Chapter10";
+        String parent = "D:\\Data\\IDEAProjects\\Java2实用教程_\\src\\Java1课本示例代码\\Chapter10\\Example10_7";
         File fRead = new File(parent, "english.txt");
         File fWrite = new File(parent, "englishCount.txt");
         try {

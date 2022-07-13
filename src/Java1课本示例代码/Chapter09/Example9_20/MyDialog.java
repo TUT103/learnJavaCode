@@ -9,7 +9,7 @@ public class MyDialog extends JDialog implements ActionListener {
     JTextField inputTitle;
     String title;
 
-    MyDialog(JFrame f, String s){
+    MyDialog(JFrame f, String s) {
         super(f, s);
         inputTitle = new JTextField(10);
         inputTitle.addActionListener(this);

@@ -8,7 +8,7 @@ public class Example10_2 {
         FileAccept fileAccept = new FileAccept();
         fileAccept.setExtendName("java");
         String fileName[] = dirFile.list(fileAccept);
-        for (String name:fileName){
+        for (String name : fileName) {
             System.out.println(name);
         }
     }

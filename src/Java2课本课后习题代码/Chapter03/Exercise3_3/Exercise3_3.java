@@ -14,7 +14,7 @@ public class Exercise3_3 {
         */
         int i = 1, n = 20;
         double sum = 0.0, temp = 1.0;
-        for (; i<=n; i++){
+        for (; i <= n; i++) {
             temp = temp * (1.0 / i);
             sum += temp;
         }

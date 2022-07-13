@@ -7,7 +7,8 @@ import java.awt.event.ActionListener;
 public class WindowActionEvent extends JFrame {
     JTextField text;
     ActionListener listener;
-    public WindowActionEvent(){
+
+    public WindowActionEvent() {
         setLayout(new FlowLayout());
         text = new JTextField(10);
         add(text);

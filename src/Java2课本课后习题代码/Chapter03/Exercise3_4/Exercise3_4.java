@@ -20,21 +20,21 @@ public class Exercise3_4 {
             if (list.size() == 0)
                 continue;
             List<Integer> list2 = new ArrayList<>();
-            for (int i_:list){
-                if (list2.contains(i_)){
+            for (int i_ : list) {
+                if (list2.contains(i_)) {
                     continue;
-                }else {
+                } else {
                     list2.add(i_);
                 }
             }
             Collections.sort(list2);
 //            System.out.print(i);
 //            System.out.print(list2);
-            for (int item:list2) {
+            for (int item : list2) {
                 sum += item;
             }
 //            System.out.println(sum);
-            if (sum == 2*i)
+            if (sum == 2 * i)
                 System.out.println(i);
         }
 

@@ -6,7 +6,7 @@ public class Exercise3_6 {
         for (int i = 1; ; i++) {
             sum += i;
             if (sum >= 8888) {
-                System.out.println(i-1);
+                System.out.println(i - 1);
                 break;
             }
         }

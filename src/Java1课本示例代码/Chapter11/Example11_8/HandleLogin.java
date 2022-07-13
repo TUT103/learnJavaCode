@@ -32,7 +32,7 @@ public class HandleLogin {
             rs = preSql.executeQuery();
             if (rs.next() == true) {
                 loginModel.setLoginSuccess(true);
-                JOptionPane.showMessageDialog(null, "登录成功", "恭喜", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(null, "登录成功", "恭喜", JOptionPane.INFORMATION_MESSAGE);
             } else {
                 loginModel.setLoginSuccess(false);
                 JOptionPane.showMessageDialog(null, "登录失败", "登录失败，重新登录", JOptionPane.WARNING_MESSAGE);

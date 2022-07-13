@@ -3,22 +3,27 @@ package Java1课本示例代码.Chapter04.Example4_8;
 public class Circular {
     Circle bottom;
     double height;
-    void setBottom(Circle c){
+
+    void setBottom(Circle c) {
         bottom = c;
     }
-    void setHeight(double h){
+
+    void setHeight(double h) {
         height = h;
     }
-    double getVolme(){
+
+    double getVolme() {
         if (bottom == null)
             return -1;
         else
             return bottom.getArea() * height / 3.0;
     }
-    double getBottomRadius(){
+
+    double getBottomRadius() {
         return bottom.getRadius();
     }
-    public void setBottomRadius(double r){
+
+    public void setBottomRadius(double r) {
         bottom.setRadius(r);
     }
 }

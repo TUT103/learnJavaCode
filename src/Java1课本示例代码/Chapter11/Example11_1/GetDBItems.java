@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class GetDBItems {
     public static void getItems(ResultSet rs) throws SQLException {
-        while (rs.next()){
+        while (rs.next()) {
             String number = rs.getString(1);
             String name = rs.getString(2);
             Date date = rs.getDate(3);

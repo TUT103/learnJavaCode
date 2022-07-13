@@ -10,7 +10,7 @@ public class Example8_22 {
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(s);
         double sum = 0;
-        while (m.find()){
+        while (m.find()) {
             String item = m.group();
             System.out.println(item);
             sum = sum + Double.parseDouble(item);

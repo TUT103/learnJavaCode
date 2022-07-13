@@ -4,7 +4,8 @@ class Student {
     int number;
     String name;
 
-    Student() { }
+    Student() {
+    }
 
     Student(int number, String name) {
         this.number = number;

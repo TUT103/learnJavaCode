@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 
 public class Example10_8 {
     public static void main(String[] args) {
-        String parent = "D:\\Data\\IDEAProjects\\Java2实用教程_\\src\\Java1课本示例代码\\Chapter10\\";
+        String parent = "D:\\Data\\IDEAProjects\\Java2实用教程_\\src\\Java1课本示例代码\\Chapter10\\Example10_5\\";
         RandomAccessFile inAndOut = null;
         int data[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         try {

@@ -14,7 +14,7 @@ public class Example10_18 {
             FileInputStream input = new FileInputStream(file);
             ProgressMonitorInputStream in = new ProgressMonitorInputStream(null, "读取java文件", input);
             ProgressMonitor p = in.getProgressMonitor();
-            while (in.read(b) != -1){
+            while (in.read(b) != -1) {
                 String s = new String(b);
                 System.out.println(s);
                 Thread.sleep(1000);

@@ -9,7 +9,7 @@ public class Example8_11 {
         Scanner reader = new Scanner(System.in);
         String str = reader.nextLine();
         String regex = "[\\s\\d\\p{Punct}]+";
-        String [] words = str.split(regex);
+        String[] words = str.split(regex);
         System.out.println(Arrays.toString(words));
     }
 }

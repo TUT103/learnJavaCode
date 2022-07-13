@@ -4,7 +4,8 @@ public class Lader1 {
     double above;
     double bottom;
     double height;
-    double getArea(){
+
+    double getArea() {
         return (above + bottom) * height / 2;
     }
 }

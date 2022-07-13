@@ -24,7 +24,7 @@ public class Example5_1 {
         result = geng.muti(x, y);
         System.out.printf("%d*%d=%d\n", x, y, result);
 
-        System.out.println(zhang instanceof Student );
+        System.out.println(zhang instanceof Student);
         System.out.println(zhang instanceof People);
         System.out.println(geng instanceof People);
         System.out.println(geng instanceof UniverStudent);

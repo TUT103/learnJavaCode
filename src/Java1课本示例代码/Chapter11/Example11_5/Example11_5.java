@@ -7,14 +7,14 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-g
+
 public class Example11_5 {
     public static void main(String[] args) {
         Connection con;
         PreparedStatement preSql;
         ResultSet rs;
         con = GetDBConnection.connectDB("students", "root", "1");
-        if (con ==null)
+        if (con == null)
             return;
         String sqlStr = "INSERT INTO mess VALUES (?, ?, ?, ?)";
         try {

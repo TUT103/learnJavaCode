@@ -13,7 +13,7 @@ public class Example3_9 {
             m = m + 1;
             sum = sum + x;
         }
-        System.out.printf("%d个数字的和是%f\n", m,sum);
-        System.out.printf("%d个数字的平均值是%f\n", m, sum/m);
+        System.out.printf("%d个数字的和是%f\n", m, sum);
+        System.out.printf("%d个数字的平均值是%f\n", m, sum / m);
     }
 }

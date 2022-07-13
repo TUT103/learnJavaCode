@@ -41,7 +41,7 @@ public class HandleInsertData {
         }
         if (ok != 0) {
             JOptionPane.showMessageDialog(null, "注册成功",
-                    "恭喜", JOptionPane.WARNING_MESSAGE);
+                    "恭喜", JOptionPane.INFORMATION_MESSAGE);
         }
     }
 }

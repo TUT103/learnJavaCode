@@ -17,8 +17,7 @@ public class Example10_15 {
                     int price = scanner.nextInt();
                     sum += price;
                     System.out.println(price);
-                }
-                catch (InputMismatchException exp){
+                } catch (InputMismatchException exp) {
                     System.out.println(scanner.next());
                 }
             }

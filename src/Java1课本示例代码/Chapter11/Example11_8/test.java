@@ -1,10 +1,10 @@
 package Java1课本示例代码.Chapter11.Example11_8;
 
 
-public class Example11_8 {
+public class test {
     public static void main(String[] args) {
         Register user = new Register();
-        user.setID("sun");
+        user.setID("moonJava");
         user.setPassword("123456");
         user.setBirthday("1999-12-10");
         HandleInsertData handleInsertData = new HandleInsertData();

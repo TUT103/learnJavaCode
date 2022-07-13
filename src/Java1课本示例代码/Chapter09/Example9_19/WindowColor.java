@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class WindowColor extends JFrame implements ActionListener {
     JButton button;
 
-    WindowColor(){
+    WindowColor() {
         button = new JButton("打开颜色对话框");
         button.addActionListener(this);
         setLayout(new FlowLayout());
@@ -20,7 +20,7 @@ public class WindowColor extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         Color newColor = JColorChooser.showDialog(this, "调色板", getContentPane().getBackground());
-        if (newColor != null){
+        if (newColor != null) {
             getContentPane().setBackground(newColor);
         }
     }

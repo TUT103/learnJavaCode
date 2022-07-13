@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Example10_5 {
     public static void main(String[] args) {
-        String parent = "D:\\Data\\IDEAProjects\\Java2实用教程_\\src\\Java1课本示例代码\\Chapter10";
+        String parent = "D:\\Data\\IDEAProjects\\Java2实用教程_\\src\\Java1课本示例代码\\Chapter10\\Example10_5";
         byte[] a = "新年快乐".getBytes();
         byte[] b = "Happy New Year".getBytes();
         File file = new File(parent, "a.txt");
