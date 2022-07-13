@@ -10,7 +10,9 @@ public class Example10_12 {
         EncryptAndDecrypt person = new EncryptAndDecrypt();
         String password = "Tiger";
         String secret = person.encrypt(command, password);
-        File file = new File("secret.txt");
+        File file = new File(
+                "D:\\Data\\IDEAProjects\\Java2实用教程_\\src\\Java1课本示例代码\\Chapter10\\Example10_12\\",
+                "secret.txt");
 
         try {
             FileOutputStream fos = new FileOutputStream(file);
